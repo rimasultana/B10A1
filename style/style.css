@@ -263,8 +263,7 @@ body {
   opacity: 0.7;
   margin-top: 16px;
 }
-.form{
-
+.form {
 }
 .form .text {
   margin-top: 24px;
@@ -278,18 +277,46 @@ body {
   line-height: 19px;
   letter-spacing: 0%;
   text-align: center;
-  padding: 19px 20px 19px 20px;}
+  padding: 19px 20px 19px 20px;
+}
 .form .submit {
   border-radius: 8px;
   background: rgb(255, 255, 255);
   padding: 17px 20px 17px 20px;
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=My Next Target End Here=-=-=-=-=-=-=-=-=-=-=-=-=- */
-
+/* =-=-=-=-=-=-=-=-=-=-=-=--=-Footer_section Start Here=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=- */
+.footer-section {
+  width: 1440px;
+  height: 100px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  margin-top: 80px;
+}
+.footer-section-container {
+  padding: 32px 150px 32px 150px;
+  display: flex;
+  gap: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.text h3 {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.social{
+  display: flex;
+  gap: 24px;
+  
+}
