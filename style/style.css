@@ -68,7 +68,6 @@ body {
   width: 1140px;
   height: 1395px;
   margin: 0 auto;
-  border: 2px solid red;
   margin-top: 75px;
 }
 .content {
@@ -86,7 +85,6 @@ body {
 }
 .content p {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -102,11 +100,9 @@ body {
   gap: 100px;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
   margin: auto;
 }
 .box-text-content {
-  border: 2px solid yellow;
   width: 50%;
   height: 220px;
 }
@@ -142,6 +138,6 @@ body {
   opacity: 0.7;
 }
 .box-img {
-  border: 2px solid green;
   width: 50%;
 }
+
