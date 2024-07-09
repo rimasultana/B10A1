@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -49,18 +49,99 @@ body {
   border: none;
   background-color: rgb(13, 19, 33);
   color: rgb(255, 255, 255);
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-padding: 21px 24px 21px 24px;
-margin-top: 32px;
-
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 21px 24px 21px 24px;
+  margin-top: 32px;
 }
-.btn{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-
+.btn {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 /* <!-- ==--==--==--=--==--== Banner Section End Here--==--==--==--==--==--== --> */
+
+/* <!---=--==--==--==--==--==- Web Development Start Here??-==--=---==--==- --> */
+.Development-section {
+  width: 1140px;
+  height: 1395px;
+  margin: 0 auto;
+  border: 2px solid red;
+  margin-top: 75px;
+}
+.content {
+  margin-top: 85px;
+  text-align: center;
+}
+.content h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  /* text-align: center; */
+  margin-bottom: 24px;
+}
+.content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 48px;
+}
+.box-container {
+  width: 946px;
+  height: 336px;
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+  margin: auto;
+}
+.box-text-content {
+  border: 2px solid yellow;
+  width: 50%;
+  height: 220px;
+}
+.box-text-content h2 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.box-text-content p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-bottom: 44px;
+}
+.btn-primary {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+}
+.box-img {
+  border: 2px solid green;
+  width: 50%;
+}
