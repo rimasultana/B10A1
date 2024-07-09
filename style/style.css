@@ -69,21 +69,24 @@ body {
   height: 1395px;
   margin: 0 auto;
   margin-top: 75px;
+  border: 2px solid red;
+  margin-bottom: 48px;
 }
 .content {
   margin-top: 85px;
   text-align: center;
 }
-.content h1 {
+.title {
   color: rgb(13, 19, 33);
   font-size: 32px;
   font-weight: 800;
   line-height: 37px;
   letter-spacing: 0%;
-  /* text-align: center; */
+  text-align: center;
+  margin-top: 85px;
   margin-bottom: 24px;
 }
-.content p {
+.description {
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
@@ -101,6 +104,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: auto;
+  margin-top: 48px;
 }
 .box-text-content {
   width: 50%;
@@ -136,8 +140,24 @@ body {
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
+  margin-bottom: 48px;
 }
 .box-img {
   width: 50%;
 }
+/* <!---=--==--==--==--==--==- Web Development End Here??-==--=---==--==- --> */
+
+/* <!-- =-=-=-=-=-=-=-=-=-=-=-=-My Inspiration Start Here =-=-=-=-=-=-=-=-=-=-=-=- --> */
+
+.Inspiration-section {
+  width: 1140px;
+  height: 775px;
+  margin: auto;
+  text-align: center;
+}
+.video iframe {
+margin: 0 auto;
+border-radius: 16px;
+}
+/* <!-- =-=-=-=-=-=-=-=-=-=-=-=-My Inspiration End Here =-=-=-=-=-=-=-=-=-=-=-=- --> */
 
