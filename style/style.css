@@ -11,7 +11,6 @@ body {
 .banner-section {
   max-width: 1440px;
   height: 650px;
-  border: 1px dotted red;
   background-image: url("../assets/Hero-bg.png");
   background-size: cover;
   background-position: center;
@@ -156,8 +155,73 @@ body {
   text-align: center;
 }
 .video iframe {
-margin: 0 auto;
-border-radius: 16px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
 }
 /* <!-- =-=-=-=-=-=-=-=-=-=-=-=-My Inspiration End Here =-=-=-=-=-=-=-=-=-=-=-=- --> */
-
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=My Next Target Start Here=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.target-section {
+  width: 1140px;
+  height: 550px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+.skills-section {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.skills-section-container {
+  width: 364px;
+  height: 300px;
+  background: rgba(255, 76, 30, 0.05);
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-content {
+  /* width: 32%; */
+  margin: 40px;
+  border-radius: 16px;
+  /* padding: 40px; */
+}
+.skill-content .second {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.skill-content img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 24px;
+}
+.skill-content h2 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.skill-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.skill-content a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=My Next Target Start Here=-=-=-=-=-=-=-=-=-=-=-=-=- */
