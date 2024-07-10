@@ -14,7 +14,7 @@ li {
 .menu-section ul {
   display: flex;
   justify-content: space-around;
-  margin: 50px 0;
+  margin: 40px 0;
   text-decoration: none;
   list-style: none;
 }
@@ -40,6 +40,7 @@ li {
  margin: auto;
   background: url(../assets/Hero-bg.png);
   margin-bottom: 74px;
+  margin-top: 25px;
 }
 .banner-container {
   width: 990px;
