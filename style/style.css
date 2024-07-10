@@ -195,6 +195,13 @@ li {
   opacity: 0.7;
   margin-bottom: 48px;
 }
+.btn-primary a{
+  list-style: none;
+  text-decoration: none;
+  color: rgb(13, 19, 33);
+
+}
+
 .box-img {
   width: 259.56px;
   height: 217.01px;
