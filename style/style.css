@@ -5,46 +5,86 @@
   box-sizing: border-box;
   font-family: "Azeret Mono", monospace;
 }
+li {
+  list-style: none;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+}
 
 /* <!-- ==--==--==--=--==--== Banner Section Stat Here--==--==--==--==--==--== --> */
-.banner-section {
-  max-width: 1500px;
-  height: 650px;
-  background-image: url("../assets/Hero-bg.png");
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 75px;
+.menu-section ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  text-decoration: none;
+  list-style: none;
 }
-.banner-section-container {
-  margin: auto;
-  text-align: center;
-  margin-top: 26px;
-}
-.banner-section-container img {
-  width: 190px;
-  /* height: 250px; */
-  margin-bottom: 43px;
-  margin-top: 25px;
-}
-.banner-section-container-content h1 {
-  color: rgb(13, 19, 33);
-  font-size: 48px;
+.menu-section ul a {
+  font-size: 30px;
   font-weight: 800;
-  line-height: 68px;
-  letter-spacing: 0%;
+  color: black;
+  text-decoration: none;
+}
+.menu-section ul li button {
+  width: 230px;
+  height: 60px;
+}
+.menu-section ul li button a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.banner-section {
+  width: 100%;
+  height: 652px;
+ margin: auto;
+  background: url(../assets/Hero-bg.png);
+  margin-bottom: 74px;
+}
+.banner-container {
+  width: 990px;
+  height: 584px;
+  padding: 26px 220;
+  margin: auto;
+}
+.banner-title .image {
+  margin: auto;
+  width: 240px;
+  height: 240px;
+  padding-top: 26px;
+  margin-bottom: 32px;
+}
+.banner-title-text {
+  width: 998px;
+  height: 310px;
   text-align: center;
 }
-.banner-section-container p {
-  margin-top: 24px;
-  opacity: 0.7;
+
+.banner-title h1 {
+  width: 998px;
+  height: 136px;
+  color: rgb(13, 19, 33);
+  font-size: 42px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.banner-description-text {
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
+  opacity: 0.7;
+  margin-bottom: 32px;
 }
-.banner-section-container button {
+.banner-title button {
   border-radius: 8px;
   border: none;
   background-color: rgb(13, 19, 33);
@@ -56,6 +96,7 @@
   text-align: center;
   padding: 21px 24px 21px 24px;
   margin-top: 32px;
+  margin-bottom: 65px;
 }
 .btn {
   text-decoration: none;
@@ -260,16 +301,15 @@
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
 }
-.card-item{
+.card-item {
   margin: 40px;
   border-radius: 16px;
   color: rgb(13, 19, 33);
-
 }
-.card-item img{
- margin-bottom: 8px;
+.card-item img {
+  margin-bottom: 8px;
 }
-.card-item h2{
+.card-item h2 {
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
@@ -277,26 +317,25 @@
   text-align: left;
   margin-bottom: 8px;
 }
-.card-item p{
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-margin-bottom:24px ;
+.card-item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
 }
-.card-item a{
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
-color: rgb(13, 19, 33);
-
+.card-item a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  color: rgb(13, 19, 33);
 }
 
-/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=My Next Target Start Here=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=My Current  Target Start Here=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .support-section-container {
   width: 1140px;
   height: 313px;
@@ -310,7 +349,6 @@ color: rgb(13, 19, 33);
   background-blend-mode: overlay;
   margin-top: 50px;
   border-radius: 16px;
-
 }
 .support-section-container-content {
   padding: 64px 48px;
@@ -336,10 +374,11 @@ color: rgb(13, 19, 33);
   text-align: center;
   opacity: 0.7;
   margin-top: 16px;
-  margin-bottom: 48px;
+  margin-bottom: 24px;
 }
 .form {
 }
+
 .form .text {
   margin-top: 24px;
   width: 548px;
@@ -351,7 +390,7 @@ color: rgb(13, 19, 33);
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0%;
-  text-align: center;
+  /* text-align: center; */
   padding: 19px 20px 19px 20px;
 }
 .form .submit {
@@ -359,17 +398,51 @@ color: rgb(13, 19, 33);
   background: rgb(255, 255, 255);
   padding: 17px 20px 17px 20px;
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
 }
-/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=My Next Target End Here=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=My Current Target End Here=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* <!-- =-=-=-=-=-=-=-=- My Next Target Start Here =-=-=-=-=-=-=-=-=-=- --> */
+
+.future-section {
+  width: 1140px;
+  height: 871px;
+  margin: 0 auto;
+}
+.future-section h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.future-section p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.skills-container {
+  width: 1140px;
+  height: 220px;
+  margin-top: 24px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
 /* =-=-=-=-=-=-=-=-=-=-=-=--=-Footer_section Start Here=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=- */
 #footer-section {
-  width: 1500px;
+  width: 100%;
   height: 100px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
@@ -377,9 +450,9 @@ color: rgb(13, 19, 33);
 }
 .footer-section-container {
   padding: 32px 150px 32px 150px;
+  margin: 0 35px;
   display: flex;
-  gap: 500px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .text h3 {
