@@ -3,17 +3,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body {
   font-family: "Azeret Mono", monospace;
 }
+
 /* <!-- ==--==--==--=--==--== Banner Section Stat Here--==--==--==--==--==--== --> */
 .banner-section {
-  max-width: 1440px;
+  max-width: 1500px;
   height: 650px;
   background-image: url("../assets/Hero-bg.png");
   background-size: cover;
   background-position: center;
+  margin-bottom: 75px;
 }
 .banner-section-container {
   margin: auto;
@@ -22,8 +22,9 @@ body {
 }
 .banner-section-container img {
   width: 190px;
-  height: 250px;
+  /* height: 250px; */
   margin-bottom: 43px;
+  margin-top: 25px;
 }
 .banner-section-container-content h1 {
   color: rgb(13, 19, 33);
@@ -64,10 +65,9 @@ body {
 
 /* <!---=--==--==--==--==--==- Web Development Start Here??-==--=---==--==- --> */
 .Development-section {
-  width: 1240px;
-  height: 1325px;
-  margin: auto;
-  margin: 75px;
+  width: 1140px;
+  height: 1395px;
+  margin: 0 auto;
 }
 
 .Development-section-container {
@@ -120,13 +120,6 @@ body {
     rgba(255, 255, 255, 0) 100%
   );
   margin-bottom: 32px;
-  box-shadow: 6px 0px 50px 0px, rgb(255, 255, 255);
-}
-.second-box {
-  display: flex;
-  gap: 50px;
-  justify-content: center;
-  align-items: center;
 }
 
 .box-text-content {
@@ -193,7 +186,6 @@ body {
   margin-bottom: 24px;
 }
 .Inspiration-section-description {
-  margin-bottom: 48px;
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
@@ -201,21 +193,30 @@ body {
   letter-spacing: 0%;
   text-align: center;
   opacity: 0.7;
+  margin-bottom: 48px;
 }
 
-.video iframe {
-  margin: 0 auto;
-  box-sizing: border-box;
+.video-container {
+  width: 1140px;
+  height: 614px;
+}
+.video {
+  border-radius: 16px;
+  padding: 48px;
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
-  padding: 32px;
 }
+.video-border {
+  border-radius: 16px;
+}
+
 /* <!-- =-=-=-=-=-=-=-=-=-=-=-=-My Inspiration End Here =-=-=-=-=-=-=-=-=-=-=-=- --> */
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=My Current Target Start Here=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .target-section {
   width: 1140px;
   height: 450px;
   margin: 0 auto;
+  margin-top: 150px;
 }
 .target-section-title {
   color: rgb(13, 19, 33);
@@ -233,43 +234,42 @@ body {
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
-.skills-section {
+.card-section {
   display: flex;
   gap: 24px;
   justify-content: center;
   align-items: center;
 }
-.skills-section-container {
-  width: 340px;
-  height: 270px;
+.card-section-container-1 {
+  width: 364px;
+  height: 300px;
+  border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-  border-radius: 16px;
 }
-.skill-content {
+.card-section-container-2 {
   border-radius: 16px;
-  padding: 40px;
-  
-}
-.second {
   background: rgba(0, 76, 232, 0.05);
+  width: 364px;
+  height: 300px;
 }
-.third {
+.card-section-container-3 {
+  width: 364px;
+  height: 300px;
+  border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
 }
-.skill-content .second {
+.card-item{
+  margin: 40px;
   border-radius: 16px;
-  background: rgba(0, 76, 232, 0.05);
-}
-.skill-content img {
-  width: 56px;
-  height: 56px;
-  margin-bottom: 24px;
-}
-.skill-content h2 {
   color: rgb(13, 19, 33);
+
+}
+.card-item img{
+ margin-bottom: 8px;
+}
+.card-item h2{
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
@@ -277,27 +277,24 @@ body {
   text-align: left;
   margin-bottom: 8px;
 }
-.skill-content p {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0%;
-  text-align: left;
-  margin-bottom: 24px;
+.card-item p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom:24px ;
 }
-.skill-content .learn a {
-  color: rgb(13, 19, 33);
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 19px;
-  letter-spacing: 0%;
-  text-align: left;
-  text-decoration-line: underline;
-  margin-bottom: 40px;
-}
+.card-item a{
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+color: rgb(13, 19, 33);
 
+}
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=My Next Target Start Here=-=-=-=-=-=-=-=-=-=-=-=-=- */
 .support-section-container {
@@ -312,6 +309,8 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;
   margin-top: 50px;
+  border-radius: 16px;
+
 }
 .support-section-container-content {
   padding: 64px 48px;
@@ -337,6 +336,7 @@ body {
   text-align: center;
   opacity: 0.7;
   margin-top: 16px;
+  margin-bottom: 48px;
 }
 .form {
 }
@@ -369,7 +369,7 @@ body {
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=My Next Target End Here=-=-=-=-=-=-=-=-=-=-=-=-=- */
 /* =-=-=-=-=-=-=-=-=-=-=-=--=-Footer_section Start Here=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=- */
 #footer-section {
-  width: 1440px;
+  width: 1500px;
   height: 100px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
