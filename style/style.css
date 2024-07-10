@@ -8,12 +8,7 @@
 li {
   list-style: none;
 }
-p {
-  font-size: 16px;
-  font-weight: 400;
-  color: rgb(13, 19, 33);
-  opacity: 0.7;
-}
+
 
 /* <!-- ==--==--==--=--==--== Banner Section Stat Here--==--==--==--==--==--== --> */
 .menu-section ul {
@@ -95,8 +90,7 @@ p {
   letter-spacing: 0%;
   text-align: center;
   padding: 21px 24px 21px 24px;
-  margin-top: 32px;
-  margin-bottom: 65px;
+  /* margin-bottom: 65px; */
 }
 .btn {
   text-decoration: none;
